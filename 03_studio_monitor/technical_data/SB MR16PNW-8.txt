@@ -1,0 +1,21 @@
+SB MR16PNW-8
+
+Sd=119.0
+Bl=6.5
+Cms=2300.0E-06
+Rms=0.4
+Mmd=9.6
+Le=0.11
+Re=6.2
+Pmax=60
+Xmax=3.1
+Re'=0.00
+Leb=0.00
+Le=0.00
+Ke=0.00
+Rss=0.00
+Rms=0.00
+Ams=0.00
+LossyLe=0
+SemiInductance=0
+Damping=0

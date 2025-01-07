@@ -1,0 +1,21 @@
+SB SB34NRXL75-8
+
+Sd=508.0
+Bl=16.6
+Cms=560.0E-06
+Rms=2.35
+Mmd=84.9
+Le=1.2
+Re=6.2
+Pmax=400
+Xmax=10.0
+Re'=0.00
+Leb=0.00
+Le=0.00
+Ke=0.00
+Rss=0.00
+Rms=0.00
+Ams=0.00
+LossyLe=0
+SemiInductance=0
+Damping=0
