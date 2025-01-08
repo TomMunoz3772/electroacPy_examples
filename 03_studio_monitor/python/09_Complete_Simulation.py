@@ -53,9 +53,9 @@ monitor.evaluation_pressureField("free-field", "field_hor",
                                 plane="xy", offset=[-1.5, -1, 0.193])
 
 # plot study to check that everything is OK
-monitor.plot_system("free-field")
+# monitor.plot_system("free-field")
 
-# run boundary operators
+# run study
 monitor.run()
 
 # save state

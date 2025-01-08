@@ -27,8 +27,6 @@ system.lem_enclosure("sealed_MF", 5.1e-3,
 #%% plot data
 system.enclosure["ported_LF"].plotZe()
 system.enclosure["ported_LF"].plotXVA()
-# system.enclosure["sealed_MF"].plotZe()
-# system.enclosure["sealed_MF"].plotXVA()
 
 #%% save current data
 ep.save("02_enclosure", system)

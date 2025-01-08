@@ -11,7 +11,7 @@ Second order low-pass filter.
     Vin          C    R
      |           |    |
      o-----------o----o
-     0
+     G
 
 @author: tom
 """

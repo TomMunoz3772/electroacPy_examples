@@ -3,6 +3,8 @@
 """
 Created on Thu Nov 28 13:58:03 2024
 
+LEM study, driver + enclosure setup.
+
 @author: tom
 """
 

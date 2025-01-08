@@ -39,7 +39,6 @@ system.plot_system("inf_ground")
 
 #%% run potential operators and plot results
 system.run()
-system.plot_results()
 
 #%% save state
 ep.save("05_evaluation_setup", system)

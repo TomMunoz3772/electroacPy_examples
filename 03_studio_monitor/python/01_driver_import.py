@@ -4,7 +4,7 @@
 Created on Thu Nov 28 09:23:53 2024
 
 This example shows how to load LPM data and add corresponding driver object 
-to the system under study
+to a loudspeakerSystem object.
 
 @author: tom
 """
@@ -31,6 +31,10 @@ system.lem_driverImport("MR16", "../technical_data/SB MR16PNW-8.txt")
 
 #%% Tweeter import (through T/S file)
 system.lem_driverImport("TW29", "../technical_data/TW29RN-B.txt")
+
+#%% plot info
+system.driver["MR16"].plotZe()
+system.driver["MR16"].plotXVA()
 
 #%% Save data
 ep.save("01_driver_import", system)

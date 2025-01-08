@@ -3,7 +3,7 @@
 """
 Created on Thu Nov 28 15:39:49 2024
 
-Recap of the acoustic radiation evaluation.
+Recap of the acoustic radiation evaluation --- free-field only.
 
 @author: tom
 """
@@ -41,7 +41,7 @@ system.plot_results()
 #%% save state
 ep.save("06_acoustic_radiation", system)
 
-#%% export data
+#%% export data - uncomment the following to export data as .txt file
 
 # system.export_directivity("directivity_export/woofer", "woofer_hor", "free-field", 
 #                           "polar_hor", [1, 2], bypass_xover=True)

@@ -3,13 +3,15 @@
 """
 Created on Thu Nov 28 14:16:18 2024
 
+Meshing in Python through simplified API.
+
 @author: tom
 """
 
 import electroacPy.general as gtb
 
 #%% mesh system - default size (1kHz)
-cad = gtb.meshCAD("../geo/step_export/simulation_cad.step", )
+cad = gtb.meshCAD("../geo/step_export/simulation_cad.step")
 cad.addSurfaceGroup("woofer", surface=[8], groupNumber=1)
 cad.addSurfaceGroup("port", [10], 2)
 cad.addSurfaceGroup("midrange", [9], 3)

@@ -10,7 +10,8 @@ Simulation of sound transmission within a duct through a membrane.
     |-->v              |            |// rigid termination
     |                  (            |//
     ---------------------------------//
-
+ piston             membrane
+ 
 @author: tom
 """
 

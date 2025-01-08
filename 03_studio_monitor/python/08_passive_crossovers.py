@@ -3,6 +3,8 @@
 """
 Created on Sat Nov 30 10:51:11 2024
 
+Post-processing with a passive crossover. 
+
 @author: tom
 """
 
@@ -31,7 +33,7 @@ lpm_midrange = "../technical_data/SB MR16PNW-8.txt"
 lpm_tweeter = "../technical_data/TW29RN-B.txt"
 
 #%% create circuit from VituixCAD network
-sV = csc.electric.voltageSource(1, 0, 20)
+sV = csc.electric.voltageSource(1, 0, 2.83)
 
 # LF filter
 L1 = inductance(1, 2, 3.3e-3)
