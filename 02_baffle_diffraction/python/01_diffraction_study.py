@@ -7,8 +7,7 @@ Created on Sun Sep 15 10:16:19 2024
 """
 
 import electroacPy as ep
-import generalToolbox as gtb
-
+from electroacPy import gtb
 
 #%% Mesh
 fmax = 5e3
