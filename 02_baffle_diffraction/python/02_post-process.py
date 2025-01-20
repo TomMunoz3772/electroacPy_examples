@@ -7,7 +7,7 @@ Created on Sun Sep 15 10:46:55 2024
 """
 
 import electroacPy as ep
-import generalToolbox as gtb
+from electroacPy import gtb
 import numpy as np
 
 #%% load and extract results from study
